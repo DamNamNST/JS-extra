@@ -15,7 +15,7 @@ const NewsPage = {
                         return `
                         <div>
                           <a href="/news/${post.id}"><img src="${post.image}" alt="" class="w-full"/></a>
-                          <a href="/news/${post.id}"><h3>${post.title}</h3></a>
+                          <a href="/news/${post.id}"><h1>${post.title}</h1></a>
                           <p>${post.desc}</p>
                         </div>
                         `
