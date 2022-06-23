@@ -1,12 +1,13 @@
+import { get } from "../api/news"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import newsList from "../data"
 
 const DetailPage = {
-  render(id) {
-    const post = newsList.find((item) => {
-      return item.id == id;
-    })
+  async render(id) {
+    const response = await get(id)
+    const post = response.data
+
     return /*html*/`
             <header>
                 ${Header.render()}

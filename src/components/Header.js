@@ -10,7 +10,7 @@ const Header = {
                     <li class="inline-block mx-4"><a href="/" class="menu-item__link">Trang chủ</a></li>
                     <li class="inline-block mx-4"><a href="/about" class="menu-item__link">Giới thiệu</a></li>
                     <li class="inline-block mx-4"><a href="/news" class="menu-item__link">Tin tức</a></li>
-                    <li class="inline-block mx-4"><a href="/product" class="menu-item__link">Sản phẩm</a></li>
+                    <li class="inline-block mx-4"><a href="/admin/post" class="menu-item__link">Sản phẩm</a></li>
                     <li class="inline-block mx-4"><a href="/contact" class="menu-item__link">Liên hệ</a></li>
                 </ul>
             </nav>
